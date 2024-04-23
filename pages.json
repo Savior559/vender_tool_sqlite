@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path" : "pages/material/material",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/analysis/analysis",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/setup/setup",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3CB371 ",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/icon/icon_index_normal.png",
+			"selectedIconPath": "static/image/icon/icon_index_active.png",
+			"text": "配方"
+		}, {
+			"pagePath": "pages/material/material",
+			"iconPath": "static/image/icon/icon_material_normal.png",
+			"selectedIconPath": "static/image/icon/icon_material_active.png",
+			"text": "原料"
+		}, {
+			"pagePath": "pages/analysis/analysis",
+			"iconPath": "static/image/icon/icon_analysis_normal.png",
+			"selectedIconPath": "static/image/icon/icon_analysis_active.png",
+			"text": "分析"
+		}, {
+			"pagePath": "pages/setup/setup",
+			"iconPath": "static/image/icon/icon_setup_normal.png",
+			"selectedIconPath": "static/image/icon/icon_setup_active.png",
+			"text": "设置"
+		}]
+	}
+}

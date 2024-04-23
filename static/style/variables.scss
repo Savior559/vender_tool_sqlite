@@ -1,0 +1,18 @@
+// :root {
+//   --primary-color: #007aff;
+//   --secondary-color: #fff;
+//   --navbar-bg-color: var(--primary-color);
+//   --navbar-text-color: #fff; // 对应黑色图标时的文字颜色
+//   --navbar-text-color-inverted: #000; // 对应白色图标时的文字颜色
+//   --button-bg-color: var(--primary-color);
+//   --button-text-color: #fff;
+// }
+
+:root {
+  --primary-color: #3CB371 ;
+  --navbar-bg-color: var(--primary-color);
+  --navbar-text-color-normal: #333333; // 对应黑色图标时的文字颜色
+  --navbar-text-color-active: #3CB371 ; // 对应白色图标时的文字颜色
+  --button-bg-color: var(--primary-color);
+  --button-text-color: #fff;
+}
